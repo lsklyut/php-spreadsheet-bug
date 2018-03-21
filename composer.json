@@ -1,0 +1,6 @@
+{
+    "name": "lsklyut/php-spreadsheet",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.2"
+    }
+}
