@@ -21,9 +21,5 @@ $sheet->setCellValue('A1', 'Turkey');
 
 var_dump($secondSheet->toArray());
 
-$sheet->setCellValue('A1', 'Pizza');
-
-var_dump($secondSheet->toArray());
-
 $writer = new Xlsx($spreadsheet);
 $writer->save('hello world.xlsx');
